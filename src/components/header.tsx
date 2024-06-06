@@ -7,8 +7,12 @@ import styles from '../styles/header.module.css'
 const navItems: { label: string; page?: string; link?: string }[] = [
   { label: 'Home', page: '/' },
   { label: 'Blog', page: '/blog' },
-  { label: 'Contact', page: '/contact' },
-  { label: 'Source Code', link: 'https://github.com/ijjk/notion-blog' },
+  { label: 'Termine', page: '/dates' },
+  { label: 'Galerie', page: '/gallery' },
+  { label: 'Instagram', link: 'https://www.instagram.com/potsrun/' },
+  { label: 'Facebook', link: 'https://www.facebook.com/Potsrun/' },
+  { label: 'Spotify', link: 'https://open.spotify.com/user/moerk89/playlist/6CBqzziiwDphQWIZpJRnX2?si=t3EmTVyqTOyAgsAgCumMmQ' },
+  { label: 'Impressum', page: '/imprint' },
 ]
 
 const ogImageUrl = 'https://notion-blog.now.sh/og-image.png'
